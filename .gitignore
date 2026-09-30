@@ -1,0 +1,56 @@
+# Environment & IDE
+.agents/
+.claude/
+.playwright-mcp/
+graphify-out/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Obsidian Second Brain & Local Vault Notes
+Bases/
+Logs/
+Templates/
+_CLAUDE.md
+index.md
+log.md
+skills-lock.json
+
+# Scratch, Reference & Temporary Artifacts
+scratch/
+Best performing/
+Kaggle logs/
+best_notebooks_detailed_diff.txt
+edge_cache/
+tracking_repo/
+
+# Root-level loose duplicate notebooks (canonical versions are in notebooks/)
+/biohub_original_breakthrough_pipeline.ipynb
+/biohub_breakthrough_0946_plus_pipeline.ipynb
+/biohub_cell_tracking_0901_plus_pipeline.ipynb
+
+# Python bytecode & checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data, Checkpoints & Outputs
+*.zarr/
+*.zarr
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.log
+*.tar.gz
+*.zip
+*.parquet
